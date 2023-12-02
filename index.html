@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    *{
+    margin:0px 0px 0px ;
+    padding:0px 0px 0px ;
+}
+body{
+    background-color:#e6f3fa;
+}
+
+#navbar{
+    height:45px;
+    background-color: rgb(18 , 18 , 62);
+    display:flex;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+    font-size:25px;
+}
+.link{
+    text-decoration: none;
+    color:white;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.link:hover{
+    color:lavender;
+    font-size:22px; 
+}
+#main{
+    height:500px;
+    background-color: rgb(0, 0, 33);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#right{
+    height:300px;
+    width:300px;
+    background-color: yellow;
+    background-image: url('suraj_image_crop.jpg');
+    background-size: cover;
+}
+#left{
+    font-size: xx-large;
+    color:white;
+}
+.suraj{
+    color: purple;
+}
+.btn{
+ padding: 6px 20px;
+ border: 2px solid white;
+ background-color:purple;
+ color: white;
+ margin: 17px;
+ font-size: 1.5rem;
+ border-radius: 10px;
+ cursor:pointer;
+ margin-top: 22px;
+}
+.btn:hover{
+    background-color: yellowgreen;
+}
+.about_me{
+  height:45px;
+  background-color:rgb(18 , 18 , 62);
+  font-size:22px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.about_me a{
+  color:white;
+  text-decoration: none;
+}
+.skills{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:x-large;
+  background-color: rgb(0 , 0 , 33);
+  color:white;
+}
+.box{
+  height:150px;
+  background-color: rgb(18 , 18 , 62);
+  display:flex;
+  align-items: center;
+}
+.image{
+
+
+  margin:15px 30px 15px;
+}
+.para{
+  margin-left:100px ;
+  color:white;
+  font-size: 18px;
+  font-family: 'Bree Serif', serif;
+}
+
+
+.maini{
+        height:100vh;
+        width:100%;
+        background-color: rgb(0 , 0 , 33);
+        color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info{
+        height:300px;
+        width:100%;
+        display:flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+    }
+    .righti{
+        height:250px;
+        width:250px;
+        background-color: white;
+        background-image: url('suraj_image_crop.jpg');
+        background-size: cover;
+    }
+    .lefti{
+        color:white;
+        font-size: 20px;
+        
+    }
+    .marks{
+        font-size:23px;
+        height:30px;
+        display: flex;
+        justify-content: space-evenly;
+        width:800px;
+    
+    }
+    .data{
+        font-size:23px;
+        height:30px;
+        width:800px;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .education{
+        margin-bottom: 20px;
+        font-size: x-large;
+    }
+    .link{
+        font-size: xx-large;
+        margin-top: 20px;
+
+    }
+    .link a{
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    .name{
+        padding-top: 10px;
+    }
+
+</style>
+<body>
+    <header id = "navbar">
+        <div id = "navbar_name">Suraj's Portfolio</div>
+        <div id = "navbar_service">
+            <a class = "link" href="Home">Home</a>
+            <a class = "link"  href="Contact me">Service</a>
+            <a class = "link"  href="About me">About me</a>
+            <a class = "link"  href="Project">Project</a>
+        </div>
+    </header>
+    <main id = "main">
+              <section id = "left">
+                <h1>Hi,My name is <span class = "suraj">Suraj</span></h1>
+                <h1>and I am a passionate</h1>
+                <h1 class = "suraj">Web developer</h1>
+                <button class = "btn">Download resume</button>
+                <button class = "btn">Visit Github</button>
+              </section>
+              <section id = "right">
+                    
+              </section>
+     </main>
+     <div class = "about_me">
+        <a href="git@github.com:SurajKumarChaubey/PRODIGY_WD_HOME-github.io.git">Click to see about me</a>
+     </div>
+    <div class = "skills"><h1>Skills</h1></div>
+    <main>
+        <div class = "box">
+            <div class = "image">
+                <img src="c_image.png" width = "140" height = "100"   alt="">
+            </div>
+            <div class = "para">
+                   <p>This is the first programming language which i learnt in my  first semester. I invest almost 7-8 month in this skill.</p>
+            </div>
+        </div>
+        <div class = "box">
+            <div class = "image">
+                <img src="java_image.jfif" width = "140" height = "100"   alt="">
+            </div>
+            <div class = "para">
+                  <p>This is my second programming language after the C and I learn the  DSA using java.</p>
+            </div>
+        </div>
+       
+        <div class = "box">
+            <div class = "image">
+                <img src="iot_images.png" width = "140" height = "100"   alt="">
+            </div>
+            <div class = "para">
+               <p>I have complited my internship in IOT with the PTC company , in which i worked on two project first one was 'WATER MANAGEMENTS SYSTEM' and second one was 'SMART GENSET'. I explored many sensor , micro-controllers and Ardino programming language. </p>
+            </div>
+        </div>
+        <div class = "box">
+            <div class = "image">
+                <img src="HTML1_image.png" width = "140" height = "100"   alt="">
+            </div>
+            <div class = "para">
+                <p>I am learning HTML and i got the oppertunity from 'INFOTECH PRODIGY' to enhance and show my skill. </p>
+            </div>
+        </div>
+        <div class = "box">
+            <div class = "image">
+                <img src="css_image.jfif" width = "140" height = "100"   alt="">
+            </div>
+            <div class = "para">
+                <p>I am learning css and i got the oppertunity from 'INFOTECH PRODIGY' to enhance and show my skill.</p>
+            </div>
+        </div>
+        <div class = "box">
+            <div class = "image">
+                <img src="javascript_image.jfif" width = "140" height = "100"  alt="">
+            </div>
+            <div class = "para">
+                <p>I am learning javasript and i got the oppertunity from 'INFOTECH PRODIGY' to enhance and show my skill.</p>
+            </div>
+        </div>
+
+    </main>
+
+
+    <maini class = "maini">
+        <section class = "info">
+           <section class = "lefti">
+             <h2 class = "name">Name : Suraj Kumar Chaubey</h2>
+             <p class = "name">IIMT COLLEGE OF ENGINEERING , GREATER NOIDA</p>
+             <p class = "name">Course : Btech</p>
+             <p class = "name">Branch : CSE(2nd year)</p>
+             <P class = "name">email id : surajkumarchaubey256@gmail.com</P>
+             <p class = "name">Contact Number : 8541913544</p>
+             <p class = "name">Address : New Delhi</p>
+           </section>
+           <section class = "righti"></section>
+         </section>
+         <h1 class = "education">Education</h1>
+             <div class = "marks">
+                 <p>Name</p>
+                 <p>10th</p>
+                 <p>12th</p>
+                 <p>Btech</p>
+             </div>
+             <div class = "data">
+                    <p>Suraj Kumar</p>
+                    <p>73.8</p>
+                    <p>73.2</p>
+                    <p>83%</p>
+             </div>
+ 
+           
+ 
+     </maini>
+
+    
+    
+
+
+</body>
+</html>
